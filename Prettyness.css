@@ -1,0 +1,248 @@
+body{
+    background: url("Nbi7bYI.jpg") no-repeat center 100px ;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body p{
+    color: azure;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: #2f2b2c;
+}
+
+#firstP{
+    display: inline-block;
+}
+
+#firstPLeft{
+    float: left;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+
+#firstPRight{
+    position: inherit;
+    text-align: right;
+    background-color: transparent;
+    border: none;
+}
+
+#secondParagraph{
+    word-wrap: break-word;
+    margin-top: 65px;
+    margin-bottom: 0;
+    border-bottom: thick #7d7879;
+}
+
+#thirdParagraph{
+    word-wrap: break-word;
+    margin: 0;
+    border-bottom: thick #7d7879;
+}
+
+#imageInPara2{
+    display: inline-block;
+    float: right;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+p {
+    background-color: #393c38;
+    border-top: 3px solid #7d7879;
+    padding: 10px;
+}
+
+table{
+    padding-top: 50px;
+    position: static;
+    width: 50%;
+    bottom: auto;
+    color: azure;
+    font-family: Century;
+    font-size: x-large;
+}
+
+th{
+    width: 25%;
+    color: darkgrey;
+}
+
+.topOfTopic{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.topicParagraph{
+    text-align: left;
+    top: 56px;
+
+}
+
+.leftSide{
+    text-align: left;
+    display: table;
+    padding-right: 10px;
+    font-size: medium;
+}
+
+.rightSide{
+    text-align: right;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.topic1{
+    background: black url("CloudComputingORIG.jpg") no-repeat center 100px;
+    width: 100%;
+    height: 456px;
+    color: azure;
+}
+
+.topic2{
+    background: black url("DataManagement2.jpg") no-repeat center 100px;
+    width: 100%;
+    /*height: 250px;*/
+    color: azure;
+
+}
+
+.topic3{
+    background:white url("MobileISWhite.jpg") no-repeat center 100px; /* https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT89KjkczWAhXGebwKHRSvBOYQjB0IBg&url=http%3A%2F%2Fwww.techplazza.com%2Fgadgets%2Fmobile-plazza%2Fthings-everyone-should-consider-first-before-buying-a-mobile-phone%2F&psig=AOvVaw3aim65k-_EuUism7iaLQiY&ust=1506834258910132*/
+    width: 100%;
+    height: 100%;
+    color: #2f2b2c;
+
+}
+
+.topic3 #firstPLeft {
+    color: black;
+    font-size: larger;
+}
+
+.topic3 #firstPRight {
+    color: black;
+    font-size: larger;
+}
+
+.topic4{
+    background: white url("CRMshaking.jpg") no-repeat center 100px; /*https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT2Kj5y8zWAhXMwbwKHeofAtMQjRwIBw&url=http%3A%2F%2Fclipartix.com%2Fhandshake-clipart-image-28703%2F&psig=AOvVaw1cGxg3pjd3t6GC9HjLqGcr&ust=1506850030192291*/
+    width: 100%;
+    height: 456px;
+    color: black;
+}
+
+.topic4 #firstPLeft {
+    color: black;
+    font-size: larger;
+}
+
+.topic4 #firstPRight {
+    color: black;
+    font-size: larger;
+}
+
+
+.about{
+    color: azure;
+
+}
+
+a:hover{
+    transition: .7s ease;
+    color: red;
+}
+
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header{
+    background-color: #232622;
+    text-align: center;
+    color: azure;
+    border-top: solid #232622;
+    border-bottom: 3px inset #393c38;
+}
+
+.cont{
+    position: relative;
+    width: 50%;
+}
+
+.image{
+    display: block;
+    width: 200%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 200%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color:red;
+}
+
+
+.cont:hover .overlay{
+    opacity: 1;
+}
+
+.txt{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+img{
+    width: 50%;
+}
+
+a{
+    text-underline: none;
+}
+
+ol {
+    text-align: center;
+    display: inline-block;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #232622;
+    border-top: 3px solid #393c38;
+
+}
+
+

@@ -1,10 +1,14 @@
+
+/*this part effects the body of the web pages*/
 body{
-    background: url("Nbi7bYI.jpg") no-repeat center 100px ;
+    background: #7d7879; /*url("Nbi7bYI.jpg") no-repeat center 100px ;*/
     margin: 0;
     padding: 0;
     height: auto;
 }
 
+
+/*this part specifically effects the paragraphs in the body*/
 body p{
     color: azure;
     font-size: large;
@@ -14,6 +18,7 @@ body p{
     border-bottom: #2f2b2c;
 }
 
+/*these are all refrences to different sections in my paragraphs */
 #firstP{
     display: inline-block;
 }
@@ -34,9 +39,10 @@ body p{
 
 #secondParagraph{
     word-wrap: break-word;
-    margin-top: 65px;
+    margin-top: 25%;
     margin-bottom: 0;
     border-bottom: thick #7d7879;
+    position: static;
 }
 
 #thirdParagraph{
@@ -55,12 +61,14 @@ body p{
     height: 200px;
 }
 
-
+/*here is the general paragraph out side the body*/
 p {
     background-color: #393c38;
     border-top: 3px solid #7d7879;
     padding: 10px;
 }
+
+/*this is to make all of the tables look good*/
 
 table{
     padding-top: 50px;
@@ -76,6 +84,8 @@ th{
     width: 25%;
     color: darkgrey;
 }
+
+/*class references for the specified areas in the website*/
 
 .topOfTopic{
     width: 100%;
@@ -118,7 +128,7 @@ th{
 }
 
 .topic3{
-    background:white url("MobileISWhite.jpg") no-repeat center 100px; /* https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT89KjkczWAhXGebwKHRSvBOYQjB0IBg&url=http%3A%2F%2Fwww.techplazza.com%2Fgadgets%2Fmobile-plazza%2Fthings-everyone-should-consider-first-before-buying-a-mobile-phone%2F&psig=AOvVaw3aim65k-_EuUism7iaLQiY&ust=1506834258910132*/
+    background:white url("MobileISWhite.jpg") no-repeat center 150px; /* https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT89KjkczWAhXGebwKHRSvBOYQjB0IBg&url=http%3A%2F%2Fwww.techplazza.com%2Fgadgets%2Fmobile-plazza%2Fthings-everyone-should-consider-first-before-buying-a-mobile-phone%2F&psig=AOvVaw3aim65k-_EuUism7iaLQiY&ust=1506834258910132*/
     width: 100%;
     height: 100%;
     color: #2f2b2c;
@@ -136,7 +146,7 @@ th{
 }
 
 .topic4{
-    background: white url("CRMshaking.jpg") no-repeat center 100px; /*https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT2Kj5y8zWAhXMwbwKHeofAtMQjRwIBw&url=http%3A%2F%2Fclipartix.com%2Fhandshake-clipart-image-28703%2F&psig=AOvVaw1cGxg3pjd3t6GC9HjLqGcr&ust=1506850030192291*/
+    background: white url("CRMshaking.jpg") no-repeat center 150px; /*https://www.google.co.nz/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiT2Kj5y8zWAhXMwbwKHeofAtMQjRwIBw&url=http%3A%2F%2Fclipartix.com%2Fhandshake-clipart-image-28703%2F&psig=AOvVaw1cGxg3pjd3t6GC9HjLqGcr&ust=1506850030192291*/
     width: 100%;
     height: 456px;
     color: black;
@@ -152,7 +162,7 @@ th{
     font-size: larger;
 }
 
-
+/*this is what makes the color change when hovering over */
 .about{
     color: azure;
 
@@ -176,6 +186,8 @@ li{
     margin-right: 50px;
 }
 
+/*for the header*/
+
 header{
     background-color: #232622;
     text-align: center;
@@ -183,7 +195,7 @@ header{
     border-top: solid #232622;
     border-bottom: 3px inset #393c38;
 }
-
+/*these below are for the fade in for the links to the different pages */
 .cont{
     position: relative;
     width: 50%;
@@ -223,9 +235,13 @@ header{
     -ms-transform: translate(-50%,-50%);
 }
 
+/*so the images display properly*/
+
 img{
     width: 50%;
 }
+
+/*for the footer*/
 
 a{
     text-underline: none;

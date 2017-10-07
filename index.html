@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--this is the head-->
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="Prettyness.css">
+    <script type="text/javascript" src="date_time.js"></script>
 
 </head>
 
-<header> <!- the title and links to the rest of the website -->
+<!--<!- the title and links to the rest of the website &ndash;&gt;-->
+
+<header>
     <ul>
         <li> <a href="About.html"><h3> About </h3> </a></li>
         <li> <a href="index.html"><h1> <u> Information Systems </u> </h1> </a> </li>
@@ -16,19 +20,13 @@
 </header>
 
 <body> <!- the main part of the website -->
-
-
-
-    <!--<p> <!-main paragraph&ndash;&gt;-->
-        <!--&lt;!&ndash;find out how to make this just one color a bit brighter than above&ndash;&gt;-->
-    <!--</p>-->
-
+<!--this below is the dividing and linking of all the photo links for my home page-->
 <table STYLE="width: 100%">
     <tr>
 
         <th><a href=Topic1.html>
             <div class="cont">
-
+                <!--here is the image location-->
                 <img border="0" alt="Cloud Computing" src="CloudComputing.jpg" class="image" >
                 <div class="overlay">
                     <div class="txt"> Cloud Computing </div>
@@ -40,6 +38,7 @@
         <th>
             <a href=Topic2.html>
             <div class="cont">
+                <!--here is the image location-->
 
                <img border="0" alt="Data Management" src="DataManagement.jpg" class="image" >
                 <div class="overlay">
@@ -53,6 +52,7 @@
             <a href=Topic3.html>
 
             <div class="cont">
+                <!--here is the image location-->
 
                <img border="0" alt="Cloud Computing" src="MobileIS.jpg" class="image" >
                 <div class="overlay">
@@ -65,6 +65,7 @@
         <th>
             <a href=Topic4.html>
             <div class="cont">
+                <!--here is the image location-->
 
                 <img border="0" alt="Cloud Computing" src="CRM.jpg" class="image" >
                 <div class="overlay">
@@ -81,11 +82,14 @@
 
 
 </body>
-<footer style="position: fixed"> <!- the stuff at the bottom of the page -->
+
+<footer style="position: fixed">
+    <!--<!- the stuff at the bottom of the page &ndash;&gt;-->
     <ol>
         <li><a href="About.html"> SOCIAL MEDIA </a></li>
         <li><a href="About.html"> CONTACT </a></li>
         <li><a href="About.html"> LEGAL </a></li>
+        <li><a><span id="date_time"></span> <script  type="text/javascript"> window.onload = date_time('date_time');</script> </a></li>
     </ol>
 </footer>
 
